@@ -12,8 +12,8 @@ n4 = float(input('Digite a quarta nota: '))
 media = (n1 + n2 + n3 + n4) / 4
 
 if media >= 6:
-    print('Aprovado')
+    print(f'Aluno Aprovado com a média {media}')
 elif media >= 4:
-    print('Recuperacao')
+    print(f'Aluno de Recuperacão com a média {media}')
 else:
-    print('Reprovado')
+    print(f'Aluno Reprovado com a  média {media}')
